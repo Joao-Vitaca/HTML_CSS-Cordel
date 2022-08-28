@@ -35,18 +35,24 @@ section{
     font-size: 3.5vw;
     font-family: var(--fonte3);
 }
+section p{
+    padding-bottom: 5vh;
+}
 .parte-normal{
-    padding: 10vh 0% 10vh 3vw;    
+    padding: 10vh 0% 5vh 3vw;    
 }
 .parte-imagem{
-    padding: 10vh 0% 10vh 0%;
+    text-shadow: 3px 3px 0px black;
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.582);
+    padding: 10vh 0% 5vh 0%;    
+    color: aliceblue;
 }
 #p2{
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    color: aliceblue;
+
 }
 #p2 > p{
     padding: 3vw;
